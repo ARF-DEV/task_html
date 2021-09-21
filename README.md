@@ -1,2 +1,2 @@
 # task_html
-Tugas Pemrograman Web Kelas RD
+Tugas Pemrograman Web Prodi Teknik Informatika Institut Teknologi Sumatera
