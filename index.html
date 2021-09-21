@@ -1,45 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
     <title>Tugas Pemweb 1</title>
+
+    <!-- Setting up favicon i.e logo website -->
+    <link rel="icon shortcut" href="./images/Kaget kena Jumpscare.jpg">
+    <style>
+        .article {
+            display:flex; 
+            align-items: center; 
+            flex-direction:row;
+        }
+        #profile {
+            display: flex; 
+            flex-direction: row;
+        }
+
+        #profile div {
+            display: flex; 
+            flex-direction:column; 
+            justify-content:center;
+        }
+    </style>
 </head>
 <body>
-    <div id="head">
+    <!-- Header -->
+    <header>
         <h1>Tugas Pemrograman Website</h1>
-        <img src="./images/Kaget kena Jumpscare.jpg" alt="" srcset="" width="100px" height="100px"> <br>
-        Nama : <strong>Muhammad Ariefuddin Satria Dharma</strong> <br>
-        NIM : <strong>119140149</strong> <br>
+    </header>
+    <!-- Profile Part -->
+    <div id="profile">
+        <div>
+            <img src="./images/Kaget kena Jumpscare.jpg" alt="" srcset="" width="100px" height="100px"> <br>
+        </div>
+        <div>
+            <div>Nama : Muhammad Ariefuddin Satria Dharma</div>
+            <div>NIM : 119140149</div>
+        </div>
     </div>
+    <nav>
+        <a href="https://www.linkedin.com/in/m-ariefuddin-satria-dharma-5b6929169/">Linkedin</a>
+        <a href="https://github.com/ARF-DEV">Github</a>
+    </nav>
+    <!-- Middle part -->
     <div id="middle">
-        <h2>Articles</h2>
-        <nav>
-            <hr>
-            <div class="article" style="display:flex; align-items: center; flex-direction:row;" >
-                <img src="./images/dev-logo.png" alt="" srcset="" width="50px" height="50px">
-                <a href="https://dev.to/seattledataguy/the-interview-study-guide-for-software-engineers-764">
-                Interview study guide for software engineers</a>
-            </div>
-            <hr>
-            <div class="article" style="display:flex; align-items: center; flex-direction:row;" >
-                <img src="./images/OpenGL_logo_(2D).svg.png" alt="" srcset="" width="50px" height="50px" >
-                <a href="https://learnopengl.com/">
-                Learn OpenGL (Graphics Programming)</a>
-            </div>
-            <hr>
-            <div class="article" style="display:flex; align-items: center; flex-direction:row;">
-                <img src="./images/pytorch-logo.png" alt="" srcset="" width="50px" height="50px">
-                <a href="https://pytorch.org/tutorials/">
-                Pytorch Tutorial</a>
-            </div>
-            <hr>
-        </nav>
+        <h2>Artikel</h2>
+        <hr>
+        <div class="article">
+            <img src="./images/dev-logo.png" alt="" srcset="" width="50px" height="50px">
+            <a href="https://dev.to/seattledataguy/the-interview-study-guide-for-software-engineers-764">
+            Interview study guide for software engineers</a>
+        </div>
+        <hr>
+        <div class="article">
+            <img src="./images/OpenGL_logo_(2D).svg.png" alt="" srcset="" width="50px" height="50px" >
+            <a href="https://learnopengl.com/">
+            Learn OpenGL (Graphics Programming)</a>
+        </div>
+        <hr>
+        <div class="article">
+            <img src="./images/pytorch-logo.png" alt="" srcset="" width="50px" height="50px">
+            <a href="https://pytorch.org/tutorials/">
+            Pytorch Tutorial</a>
+        </div>
+        <hr>
     </div>
+    <!-- Footer part -->
     <footer>
-        <p>Author: Muhammad Ariefuddin Satria Dharma</p>
-        <p>copyright &copy; 2021</p>
+        <p>
+            Penulis: Muhammad Ariefuddin Satria Dharma<br>
+            copyright &copy; 2021 
+        </p>
     </footer>
 </body>
 </html>
